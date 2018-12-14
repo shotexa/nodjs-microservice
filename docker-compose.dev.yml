@@ -1,0 +1,7 @@
+version: '3'
+services:
+  companies:
+    command: npm run dev
+    volumes:
+      - ./companies.microservice:/app
+
