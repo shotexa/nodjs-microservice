@@ -10,5 +10,5 @@ EXPOSE 8080
 
 RUN chmod +x /app/run.sh
 
-CMD ["npm", "start"]
+CMD ["/app/run.sh"]
 
